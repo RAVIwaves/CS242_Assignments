@@ -1,0 +1,23 @@
+                      PAYROLL REGISTER
+|===========================================================|
+| Employee No:    Pay rate:    Hours worked:    Department: |
+| 0101            8.11         49               41          |
+| Exempt:         Base pay:    Overtime pay:    Total pay:  |
+| Y               397.39       0                397.39      |
+|===========================================================|
+| Employee No:    Pay rate:    Hours worked:    Department: |
+| 0722            7.22         40               32          |
+| Exempt:         Base pay:    Overtime pay:    Total pay:  |
+| N               288.80       0                288.80      |
+|===========================================================|
+| Employee No:    Pay rate:    Hours worked:    Department: |
+| 1273            5.43         39               23          |
+| Exempt:         Base pay:    Overtime pay:    Total pay:  |
+| Y               211.77       0                211.77      |
+|===========================================================|
+| Employee No:    Pay rate:    Hours worked:    Department: |
+| 2584            6.74         45               14          |
+| Exempt:         Base pay:    Overtime pay:    Total pay:  |
+| N               269.60       50.55            320.15      |
+|===========================================================|
+                           END
