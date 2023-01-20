@@ -1,0 +1,51 @@
+\documentclass{article}  %document class
+
+\usepackage{amsmath}     %adding package 
+\usepackage{hyperref}    %adding package
+
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}   %reference color setup
+
+\begin{document}         %begin document command
+
+\title{Hello World!}     %"Hello World!" part
+\author{Your Name}       %"Your Name" part
+\date{January 1, 1831}   %"January 1, 1831" part
+\maketitle               %making above lines title
+
+\section{Getting Started}   %Starting section
+\textbf{Hello World!} Today I am learning \LaTeX{}. \LaTeX{} is a great program for writing math. I can write in line math such as \(a^2 + b^2 = c^2\). I can also give equations their own space: %some text
+\begin{equation}   %equation begin
+    \gamma^2 + \theta^2 = \omega^2   %equation
+\end{equation}     %equation end
+\textquotedblleft Maxwell\rq s equations\textquotedblright \space are named for James Clark Maxwell and are as follow:   %some text
+\begin{align}          % used '&' below for alligning all "=" and '&&' for alligning start of text(name of that equation)
+    \vec{\nabla} \cdot \vec{E} \quad &=\quad\frac{\rho}{\epsilon_0} &&\text{Gauss's Law} \label{eq:GL}\\    %equation + name  + added label
+    \vec{\nabla} \cdot \vec{B} \quad &=\quad 0 &&\text{Gauss's Law for Magnetism} \label{eq:GLM}\\    %equation + name  + added label
+    \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \label{eq:FL}\\   %equation + name + added label
+    \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \label{eq:ACL}   %equation + name  + added label
+\end{align}
+
+Equations \ref{eq:GL}, \ref{eq:GLM}, \ref{eq:FL}, and \ref{eq:ACL} are some of the most important in Physics. %used reference here call by label used
+\section{What about Matrix Equations?}   %starting new section
+\begin{equation*}              %equation begin
+\begin{pmatrix}                %for first matrix
+a_{11}&a_{12}&\dots&a_{1n}\\   %data inside matrix
+a_{21}&a_{22}&\dots&a_{2n}\\   %data inside matrix
+\vdots&\vdots&\ddots&\vdots\\  %data inside matrix
+a_{n1}&a_{n2}&\dots&a_{nn}     %data inside matrix
+\end{pmatrix}
+\begin{bmatrix}                %for 2nd matrix
+v_{1}\\                        %data inside matrix
+v_{2}\\                        %data inside matrix
+\vdots\\                       %data inside matrix
+v_{n}                          %data inside matrix
+\end{bmatrix}
+=
+\begin{matrix}                 %for matix after '='
+w_{1}\\                        %data inside matrix
+w_{2}\\                        %data inside matrix
+\vdots\\                       %data inside matrix
+w_{n}                          %data inside matrix
+\end{matrix}
+\end{equation*}
+\end{document}                %end of document
